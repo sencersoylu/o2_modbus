@@ -1,0 +1,17 @@
+{
+  "host": "192.168.77.201",
+  "port": 4196,
+  "interval": 1,
+  "server_port": 5001,
+  "devices": [
+    { "slave_id": 6, "name": "main" },
+    { "slave_id": 7, "name": "ante" },
+    { "slave_id": 3, "name": "fio3" },
+    { "slave_id": 2, "name": "fio2" },
+    { "slave_id": 4, "name": "fio4" },
+    { "slave_id": 5, "name": "fio5" },
+    { "slave_id": 1, "name": "fio1" }
+
+
+  ]
+}
