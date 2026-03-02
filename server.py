@@ -138,7 +138,7 @@ class ModbusConnection:
             results.append({
                 "slave_id": slave_id,
                 "name": name,
-                "giris_degeri": round(giris * 1000, 3) if giris is not None else None,
+                "giris_degeri": int(round(giris * 1000000)) if giris is not None else None,
                 "ortam_sicakligi": round(ortam, 2) if ortam is not None else None,
                 "error": giris_err or ortam_err,
             })
